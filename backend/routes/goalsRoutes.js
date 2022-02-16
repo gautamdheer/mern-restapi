@@ -8,10 +8,11 @@ router.post('/', (req, res) => {
     res.status(200).json({message : "Set goal"})
 })
 
-router.get('/', (req, res) => {
+router.put('/', (req, res) => {
     res.status(200).json({message : "Get Goals"})
 })
-router.get('/', (req, res) => {
+
+router.delete('/', (req, res) => {
     res.status(200).json({message : "Get Goals"})
 })
 
