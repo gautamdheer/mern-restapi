@@ -6,7 +6,5 @@ const app = express()
 
 app.use('/api/goals/', require('./routes/goalsRoutes') )
 
-
-
 app.listen(port, () => console.log(`Server started on port ${port}`))
 
